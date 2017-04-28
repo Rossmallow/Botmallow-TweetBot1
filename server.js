@@ -1,3 +1,8 @@
+/* A Twitterbot made by @Rossmallow
+ * GitHub.com/Rossmallow
+ * LinkedIn.com/in/RossNel
+*/
+
 var Twit = require('twit')
 
 var fs = require('fs'),
