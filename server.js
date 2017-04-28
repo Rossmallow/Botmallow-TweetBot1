@@ -259,7 +259,7 @@ function upload_random_image() {
       console.log('Uploaded an image!');
 
       T.post('statuses/update', {
-        status: album_names[rand] + ' by #' + band_names[rand], media_ids: new Array(data.media_id_string)
+        status: '#' + album_names[rand] + ' by ' + band_names[rand], media_ids: new Array(data.media_id_string)
       },
         function(err, data, response) {
           if (err){
