@@ -238,7 +238,7 @@ var album_names = [
   'OffTheDeepEnd',
   'RunningWithScissors',
   'StraighOuttaLynwood',
-  'TheEssentialWeirdAlYankovic',
+  'TheEssentialWeirdAlterYankovic',
   'TheTVAlbum',
   'UHF'
 ];
