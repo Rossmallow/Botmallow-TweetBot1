@@ -12,7 +12,7 @@ var fs = require('fs'),
 
 var T = new Twit(config);
 
-var i = 0;
+var rand = 0;
 
 function pick_random_album_artwork() {
   var album_artwork = [
@@ -89,13 +89,7 @@ function pick_random_album_artwork() {
     'WeirdAlYankovic-TheTVAlbum.jpg',
     'WeirdAlYankovic-UHF.jpg'
   ];
-  if (i < album_artwork.length) {
-    rand = i;
-    i++;
-  }
-  else {
-    i = 0;
-  }
+  rand = Math.floor(Math.random() * album_artwork.length);
   return album_artwork[rand];
 }
 
