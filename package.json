@@ -1,0 +1,21 @@
+{
+  "name": "botmallow",
+  "version": "1.0.0",
+  "description": "This is my first TwitterBot. It is made with Node.js. It is very simple. https://botwiki.org/tutorials/make-an-image-posting-twitter-bot/, https://medium.com/@mattpopovich/how-to-build-and-deploy-a-simple-twitter-bot-super-fast-with-node-js-and-heroku-7b322dbb5dd3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Rossmallow",
+  "license": "ISC",
+  "dependencies": {
+    "node-twitterbot": "^0.2.2",
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/enigmatic-fjord-41183.git"
+  }
+}
