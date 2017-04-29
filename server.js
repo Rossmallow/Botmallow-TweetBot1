@@ -203,7 +203,7 @@ var album_names = [
   'InstantReplay',
   'MoreOfTheMonkees',
   'PicesAquariusCapricorn&JonesLtd',
-  'TheBirdsTheBees&TheMonkees',
+  'TheBirdsTheBeesAndTheMonkees',
   'TheMonkees',
   'TheMonkees50ClassicAlbumCollection',
   'TheMonkeesPresent',
