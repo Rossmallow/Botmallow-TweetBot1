@@ -275,5 +275,4 @@ function upload_random_image() {
   });
 }
 
-// setInterval(upload_random_image, 600000);
 setImmediate(upload_random_image);
